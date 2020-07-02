@@ -22,19 +22,32 @@
         <div class="collapse navbar-collapse" id="navbarNav">
             <ul class="navbar-nav">
                 <li class="nav-item active">
-                    <a class="nav-link" href="#">Customers <span class="sr-only">(current)</span></a>
+                    <a class="nav-link" href="#">Products <span class="sr-only">(current)</span></a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#">Orders</a>
+                    <a class="nav-link" href="../Orders/myOrders.html">Orders</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#">About</a>
+                    <a class="nav-link" href="../Others/aboutUs.html">About</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#">Contact Us</a>
+                    <a class="nav-link" href="../Others/contactUs.html">Contact Us</a>
                 </li>
             </ul>
         </div>
+        <form class="form-inline dropdown">
+            <button type="button" class="btn btn-outline-secondary dropdown-toggle" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                <a href="../Profile/myProfile.html">
+                    <i class="fa fa-user"></i>
+                </a>
+            </button>
+            <div class="dropdown-menu profile-dropdown" aria-labelledby="navbarDropdown">
+                <a class="dropdown-item" href="../Profile/myProfile.html">My Profile</a>
+                <a class="dropdown-item" href="#">Billing Info</a>
+                <div class="dropdown-divider"></div>
+                <a class="dropdown-item" href="../Login/login.html">Logout</a>
+            </div>
+        </form>
     </nav><br/>
 
     <div class="container">
@@ -51,9 +64,6 @@
                 </li>
                 <li class="list-inline-item">
                     <i class="fa fa-list" aria-hidden="true"></i> List View
-                </li>
-                <li class="list-inline-item">
-                    <i class="fa fa-plus" aria-hidden="true"></i> New Customer
                 </li>
             </ul>
         </div>
