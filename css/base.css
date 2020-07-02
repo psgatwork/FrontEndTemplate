@@ -2,3 +2,11 @@
     left: auto !important;
     right: 0;
 }
+
+.single-product-image {
+    max-height: 400px;
+}
+
+.form-manual {
+    width: 800px;
+}
