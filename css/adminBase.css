@@ -11,6 +11,20 @@
     width: 800px;
 }
 
+.list-inline-item:hover {
+    color: orangered;
+    cursor: pointer;
+}
+
+.card:hover {
+    border-color: orangered;
+    cursor: pointer;
+}
+
+.view-text-values {
+    color: darkgoldenrod;
+}
+
 #icAdminSearchCustomer {
     margin-left: 10px;
 }
